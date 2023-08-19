@@ -46,3 +46,23 @@ section {
 }
 
 /* Add more CSS styles as needed for your design */
+
+/* ... (previous CSS rules) ... */
+
+.skills-columns {
+    display: flex; /* Display columns side by side */
+    flex-wrap: wrap; /* Allow columns to wrap to a new line when needed */
+    justify-content: space-between; /* Distribute columns evenly */
+}
+
+.skills-column {
+    width: 30%; /* Adjust column width as needed */
+    margin-bottom: 20px; /* Space between columns */
+}
+
+.skills-column h3 {
+    margin-bottom: 10px;
+}
+
+/* ... (remaining CSS rules) ... */
+
