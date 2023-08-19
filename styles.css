@@ -46,7 +46,7 @@ section {
 }
 
 .skills-column {
-    flex: 0 0 calc(20% - 25px); /* Equal width for each box */
+    flex: 0 0 calc(20% - 15px); /* Equal width for each box */
     margin: 10px; /* Adjust margin for spacing */
     background-color: #fff;
     border-radius: 5px;
