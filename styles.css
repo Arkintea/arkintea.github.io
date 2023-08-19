@@ -1,15 +1,18 @@
 /* Reset default browser styles */
-body, h1, h2, p {
+body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background-color: #333;
+    background-color: #222;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -33,11 +36,38 @@ section {
     padding: 40px;
 }
 
+.skills-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills-column {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.skills-column h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.skills-column ul {
+    list-style-type: none;
+}
+
+.skills-column li {
+    margin-bottom: 6px;
+    color: #555;
+}
+
 .project {
-    border: 1px solid #ccc;
+    background-color: #fff;
+    border: 1px solid #ddd;
     padding: 20px;
     margin: 20px 0;
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .project a {
@@ -46,23 +76,3 @@ section {
 }
 
 /* Add more CSS styles as needed for your design */
-
-/* ... (previous CSS rules) ... */
-
-.skills-columns {
-    display: flex; /* Display columns side by side */
-    flex-wrap: wrap; /* Allow columns to wrap to a new line when needed */
-    justify-content: space-between; /* Distribute columns evenly */
-}
-
-.skills-column {
-    width: 30%; /* Adjust column width as needed */
-    margin-bottom: 20px; /* Space between columns */
-}
-
-.skills-column h3 {
-    margin-bottom: 10px;
-}
-
-/* ... (remaining CSS rules) ... */
-
