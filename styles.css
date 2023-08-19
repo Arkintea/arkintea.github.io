@@ -36,15 +36,19 @@ section {
     padding: 40px;
 }
 
-.skills-columns {
+.skills-row {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .skills-column {
-    width: 30%;
+    flex-basis: calc(25% - 20px);
     margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .skills-column h3 {
@@ -54,6 +58,8 @@ section {
 
 .skills-column ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .skills-column li {
@@ -76,41 +82,3 @@ section {
 }
 
 /* Add more CSS styles as needed for your design */
-
-
-/* ... (previous CSS rules) ... */
-
-.skills-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px; /* Add some spacing between sections */
-}
-
-.skills-column {
-    flex-basis: calc(25% - 20px); /* Distribute columns equally with spacing */
-    margin-bottom: 40px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.skills-column h3 {
-    margin-bottom: 10px;
-    color: #333;
-}
-
-.skills-column ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.skills-column li {
-    margin-bottom: 6px;
-    color: #555;
-}
-
-/* ... (remaining CSS rules) ... */
-
