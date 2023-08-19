@@ -36,20 +36,25 @@ section {
     padding: 20px;
 }
 
+/* ... (previous CSS rules) ... */
+
 .skills-row {
     display: flex;
     justify-content: space-between;
-    margin: -20px; /* Add negative margin to compensate for spacing */
+    margin: -10px; /* Adjust negative margin for spacing */
 }
 
 .skills-column {
-    flex-basis: calc(25% - 20px); /* Distribute columns equally with spacing */
-    margin: 20px; /* Add margin to each column */
+    flex-basis: calc(20% - 20px); /* Adjust column width */
+    margin: 10px; /* Adjust margin for spacing */
     background-color: #fff;
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px; /* Adjust padding for smaller boxes */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* ... (remaining CSS rules) ... */
+
 
 .skills-column h3 {
     margin-bottom: 10px;
