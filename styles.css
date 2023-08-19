@@ -38,14 +38,17 @@ section {
 
 /* ... (previous CSS rules) ... */
 
+/* ... (previous CSS rules) ... */
+
 .skills-row {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align boxes to the left */
     margin: -10px; /* Adjust negative margin for spacing */
 }
 
 .skills-column {
-    flex-basis: calc(20% - 20px); /* Adjust column width */
+    flex: 0 0 calc(25% - 20px); /* Equal width for each box */
     margin: 10px; /* Adjust margin for spacing */
     background-color: #fff;
     border-radius: 5px;
